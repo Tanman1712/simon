@@ -10,3 +10,6 @@ That will delete the html and other files then copy the new ones specifically to
 
 ### Next Phase
 The play page looks the hardest so let's knock out the other two first. Starting with scores then about. I'll make sure to commit after completing each one. I hope I don't need that License thing.
+
+### Final Phase
+Just have the play page left. Most of the changes I want to make are more css and javascript based so it's staying pretty vanilla for now.
