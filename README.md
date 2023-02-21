@@ -19,7 +19,7 @@ Just have the play page left. Most of the changes I want to make are more css an
 First: need to add the link to the css to all the html files as well as the imports to bootstrap
 
 ### Next Phase
-Fill out the main.css
+Add all the bootstrap to the html for part one. Fill out the main.css for part two
 
 ### Final Phase
 Make minor adjustments to help solidify topics
