@@ -13,3 +13,13 @@ The play page looks the hardest so let's knock out the other two first. Starting
 
 ### Final Phase
 Just have the play page left. Most of the changes I want to make are more css and javascript based so it's staying pretty vanilla for now.
+
+## CSS
+### First steps
+First: need to add the link to the css to all the html files as well as the imports to bootstrap
+
+### Next Phase
+Fill out the main.css
+
+### Final Phase
+Make minor adjustments to help solidify topics
