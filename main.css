@@ -140,6 +140,11 @@ footer a {
     transform: translateX(-50%) translateY(-50%);
 }
 
+.explanation {
+    font-size: 2em;
+    width: 75%;
+}
+
 @media (max-height: 600px) {
     header {
         display: none;
