@@ -23,3 +23,14 @@ Add all the bootstrap to the html for part one. Fill out the main.css for part t
 
 ### Final Phase
 Make minor adjustments to help solidify topics
+
+## Javascript
+### First steps
+I think I'll write out the js files first then update the html files where they are called. I'll have play.js be it's own commit.
+Actually for first phase, I'm going to do all the login stuff together index.html and login.js
+
+### Next Phase
+This will be all of the play stuff
+
+### Final Phase
+Clean up, maybe some experimentation and anything else I missed.
