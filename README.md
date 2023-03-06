@@ -30,7 +30,7 @@ I think I'll write out the js files first then update the html files where they 
 Actually for first phase, I'm going to do all the login stuff together index.html and login.js
 
 ### Next Phase
-This will be all of the play stuff
+This will be all of the play stuff. Changed my mind, I'm going to flush out the scores functionality and update the html to handle the Player id and scores, then I'll update play stuff.
 
 ### Final Phase
 Clean up, maybe some experimentation and anything else I missed.
