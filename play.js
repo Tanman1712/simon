@@ -140,6 +140,35 @@ class Game {
   updateScores(userName, score, scores) {
     const date = new Date().toLocaleDateString();
     const newScore = { name: userName, score: score, date: date };
+    
+    let index;
+    let highscore = -1;
+    scores.forEach(score => {
+      if (score.name === userName) {
+        index = scores.indexOf(score);
+        if (score.score > highscore)
+          highscore = score.score;
+      }
+    });
+
+    if (highscore !== -1) {
+      localStorage.setItem('pb', highscore);
+    }
+
+    let checkForUser = false;
+    const pb = localStorage.getItem('pb');
+    if (pb) {
+      if (pb > score) {
+        return scores;
+      } else {
+        checkForUser = true;
+      }
+    }
+
+    if (checkForUser && index > -1) {
+        scores.splice(index, 1);
+    }
+    
 
     let found = false;
     for (const [i, prevScore] of scores.entries()) {
@@ -158,6 +187,7 @@ class Game {
       scores.length = 10;
     }
 
+    localStorage.setItem('pb', score);
     return scores;
   }
 }
