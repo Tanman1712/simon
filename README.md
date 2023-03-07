@@ -34,3 +34,4 @@ This will be all of the play stuff. Changed my mind, I'm going to flush out the 
 
 ### Final Phase
 Clean up, maybe some experimentation and anything else I missed.
+The main thing I want to add is a way for it to catch the same player. I don't want a new entry everytime someone plays but instead how theirs update. I'm thinking I could store the leaderboard location of their last attempt in local storage and then check if its null or not. If it's not, then I can just update that row instead of creating a new one each time.
