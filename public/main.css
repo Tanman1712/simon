@@ -51,6 +51,10 @@ footer a {
     padding: 0.5em;
 }
 
+.player-name {
+    color: rgb(118, 190, 210);
+}
+
 .game {
     background: rgb(0, 0, 0);
     border-radius: 50%;
@@ -58,8 +62,8 @@ footer a {
     width: 80vw;
     height: 80vw;
     position: absolute;
-    min-width: 350px;
-    min-height: 350px;
+    min-width: 300px;
+    min-height: 300px;
     max-width: min(80vmin, 1000px);
     max-height: min(80vmin, 1000px);
 }
@@ -138,11 +142,6 @@ footer a {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-}
-
-.explanation {
-    font-size: 2em;
-    width: 75%;
 }
 
 @media (max-height: 600px) {
